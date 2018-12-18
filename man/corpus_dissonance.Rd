@@ -27,3 +27,21 @@ Dissonance estimate, as a numeric scalar.
 \description{
 Calculates a corpus-based estimate of the dissonance of a sonority.
 }
+\details{
+By default, dissonance is estimated from chord prevalences
+in the McGill Billboard dataset \insertCite{Burgoyne2011}{hcorp}.
+The dataset's contents were sampled from the Billboard magazine's
+United States "Hot 100" chart between 1958 and 1991,
+and transcribed by expert musicians.
+See \code{\link[hcorp]{popular_1}} for more details.
+
+By default,
+the dissonance estimation treats chords as transposition invariant,
+and chord pitches as octave-invariant,
+but differentiates between different inversions of the same chord.
+Different behaviour can be achieved by passing a custom corpus analysis
+to the \code{table} argument.
+}
+\references{
+\insertAllCited{}
+}

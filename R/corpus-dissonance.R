@@ -21,7 +21,7 @@
 #' representing a pitch-class chord (\code{\link[hrep]{pc_chord}}),
 #' representing a pitch-class chord type (\code{\link[hrep]{pc_chord_type}}),
 #' or a pitch-class set (\code{\link[hrep]{pc_set}}).
-#' This object will be coerced to the same type as the table,
+#' This object will be coerced to the same type as the corpus dissonance table,
 #' i.e. \code{type(table)}.
 #' @param table Corpus dissonance table, as created by
 #' \code{\link{corpus_dissonance_table}()}.

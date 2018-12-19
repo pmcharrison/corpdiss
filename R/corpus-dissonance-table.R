@@ -34,8 +34,18 @@ corpus_dissonance_table.corpus <- function(x, type = "pc_chord_type", add = 1L) 
 
 .corpus_dissonance_table <- function(df, type) {
   class(df) <- c("corpus_dissonance_table", class(df))
-  type(df) <- type
+  attr(df, "type") <- type
   df
+}
+
+#' Get type
+#'
+#' Gets the type of an object.
+#' @param x Object.
+#' @return (Character scalar) Type.
+#' @export
+type <- function(x) {
+  UseMethod("type")
 }
 
 #' @export

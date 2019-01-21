@@ -3,7 +3,13 @@
 
 # corpdiss: A corpus-based model of dissonance perception
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![Travis build
+status](https://travis-ci.org/pmcharrison/corpdiss.svg?branch=master)](https://travis-ci.org/pmcharrison/corpdiss)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/corpdiss?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/corpdiss)
+[![Coverage
+status](https://coveralls.io/repos/github/pmcharrison/corpdiss/badge.svg)](https://coveralls.io/r/pmcharrison/corpdiss?branch=master)
 
 The `corpdiss` R package implements a corpus-based model of dissonance
 perception. This model represents the idea that dissonance decreases

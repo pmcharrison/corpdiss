@@ -3,7 +3,7 @@ Title: A Corpus-Based Model of Dissonance Perception
 Version: 0.1.0
 Authors@R: person("Peter", "Harrison", email = "pmc.harrison@gmail.com", role = c("aut", "cre"))
 Description: This package implements a corpus-based model of dissonance perception. This model represents the idea that dissonance decreases through familiarity, and therefore perceptual dissonance should decrease in proportion to a chord's prevalence in a given musical style.
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

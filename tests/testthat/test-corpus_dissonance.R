@@ -2,7 +2,7 @@ context("test-corpus_dissonance")
 
 test_that("examples", {
   test <- function(x, y, tolerance = 1e-5) {
-    expect_equal(corpus_dissonance(x) %>% print, y, tolerance = tolerance)
+    expect_equal(corpus_dissonance(x), y, tolerance = tolerance)
   }
   test(c(60, 64, 67), 0.7802433)
   test(c(64, 67, 72), 4.06715)

@@ -2,15 +2,18 @@ Package: corpdiss
 Title: A Corpus-Based Model of Dissonance Perception
 Version: 0.1.0
 Authors@R: person("Peter", "Harrison", email = "pmc.harrison@gmail.com", role = c("aut", "cre"))
-Description: This package implements a corpus-based model of dissonance perception. This model represents the idea that dissonance decreases through familiarity, and therefore perceptual dissonance should decrease in proportion to a chord's prevalence in a given musical style.
+Description: This package implements a corpus-based model of dissonance 
+    perception. This model represents the idea that dissonance decreases 
+    through familiarity, and therefore perceptual dissonance should decrease 
+    in proportion to a chord's prevalence in a given musical style.
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RdMacros: Rdpack
 Imports: 
-    hcorp (>= 0.1.0),
-    hrep (>= 0.4.0),
+    hcorp (>= 0.5.0.9000),
+    hrep (>= 0.10.0.9001),
     tibble (>= 1.4.2),
     magrittr (>= 1.5),
     Rdpack (>= 0.9.0),

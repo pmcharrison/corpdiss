@@ -6,7 +6,10 @@
 \alias{corpdiss-package}
 \title{corpdiss: A Corpus-Based Model of Dissonance Perception}
 \description{
-This package implements a corpus-based model of dissonance perception. This model represents the idea that dissonance decreases through familiarity, and therefore perceptual dissonance should decrease in proportion to a chord's prevalence in a given musical style.
+This package implements a corpus-based model of dissonance 
+    perception. This model represents the idea that dissonance decreases 
+    through familiarity, and therefore perceptual dissonance should decrease 
+    in proportion to a chord's prevalence in a given musical style.
 }
 \author{
 \strong{Maintainer}: Peter Harrison \email{pmc.harrison@gmail.com}

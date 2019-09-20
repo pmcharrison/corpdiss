@@ -64,7 +64,7 @@ By default, the `corpus_dissonance` function uses chord prevalences
 extracted from the McGill Billboard dataset (Burgoyne, 2011).
 The dataset's contents were sampled from the Billboard magazine's
 United States "Hot 100" chart between 1958 and 1991,
-and transcribed by expert musicians.
+and transcribed by expert musicians. 
 
 By default,
 the dissonance estimation treats chords as transposition invariant,

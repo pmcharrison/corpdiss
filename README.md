@@ -27,7 +27,7 @@ if (!require(devtools)) install.packages("devtools")
 devtools::install_github("corpdiss")
 ```
 
-## Example usage 
+## Example usage
 
 ### Estimating chordal consonance
 
